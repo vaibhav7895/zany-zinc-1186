@@ -1,0 +1,215 @@
+body{
+    margin: 0px;
+}
+#navbar{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-around;
+    
+}
+#leftnav{
+    align-items: center;
+    margin-left: 50px;
+    justify-content: center;
+}
+#rightnav{
+    text-align: right;
+    display: flex;
+    border: 1px solid red;
+    width: 550px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+#leftnav>img{
+    width: 20%;
+    align-items: center;
+    cursor: pointer;
+}
+#leftnav>select{
+    text-align: center;
+    margin-left: 30px;
+}
+#scontainer>div{
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid red;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    background-color: white;
+}
+#searchbox{
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=225&q=mediumHigh");
+}
+#searchbox>.inputbox{
+    margin-bottom: 20px;
+    
+}
+#belowdiv{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+    border: 1px solid red;
+    
+}
+#belowdiv>img{
+    width: 32%;
+}
+#featured>h1{
+    margin-left: 9%;
+    
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    width: 82%;
+    height: 225px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+    margin: auto;
+}
+.boimg1{
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_LastMinute_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh");
+    height: 220px;
+    width: 320px;
+    color: white;
+    align-items: flex-start ;
+    background-size: cover;
+    
+}
+.boimg1 h2{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.boimg1 p{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.boimg2{
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_AllInclusive_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh");
+    height: 220px;
+    width: 320px;
+    color: white;
+    align-items: flex-start ;
+    background-size: cover;
+    
+}
+.boimg2 h2{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.boimg2 p{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.boimg3{
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_MOD_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh");
+    height: 220px;
+    width: 320px;
+    color: white;
+    align-items: flex-start ;
+    background-size: cover;
+    
+}
+.boimg3 h2{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.boimg3 p{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.boimg4{
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_JetAndReset_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh");
+    height: 220px;
+    width: 320px;
+    color: white;
+    align-items: flex-start ;
+    background-size: cover;
+    
+}
+.boimg4 h2{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.boimg4 p{
+    margin-left: 20px;
+    padding-bottom: 20px;
+
+}
+.mid_section h1{
+   margin-left: 150px;
+}
+
+.mid_img{
+    display: flex;
+    width: 82%;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.mid_img>div:nth-child(1){
+    border: 1px solid black;
+    width: 31%;
+}
+.mid_img>div:nth-child(2){
+    border: 1px solid black;
+    width: 31%;
+}
+.mid_img>div:nth-child(3){
+    border: 1px solid black;
+    width: 31%;
+}
+.travelling{
+    margin-left: 10%;
+}
+#travel_box{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+#travel_box>div:nth-child(1){
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg");
+    width: 49%;
+    height: 250px;
+    background-size: cover ;
+    
+}
+#travel_box>div:nth-child(2){
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg");
+    width: 49%;
+    height: 250px;
+    background-size: cover ;
+    
+}
+.ftimg{
+   text-align: center;
+   background-image: url("https://tpc.googlesyndication.com/simgad/10056509806482740393?");
+   width: 80%;
+   height: 120px;
+   margin: auto;
+   background-size: cover;
+}
+#footer_img{
+    
+    display: flex;
+    margin-top: 30px;
+}
+#footer_img>div>img{
+    width: 40%;
+    height: 120%;
+    margin-left: 160px;
+
+}
+#footer_div>div{
+   border: 1px solid red;
+   justify-content: left;
+}
