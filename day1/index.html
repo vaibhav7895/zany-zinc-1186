@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Orbitz</title>
+    <link type="image/x-icon" href="" sizes="16x16 32x32" rel="shortcut icon">
+    <link type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32" rel="icon">
+    <link rel="apple-touch-icon" href="/favicon.ico">
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-     <div class="container">
-         <div id="navbar">
+    <div class="container">
+        <div id="navbar">
             <div id="leftnav">
-                <img src="https://dpogroup.com/wp-content/uploads/2017/07/orbitz.jpg" alt="">
-                <select>
+                <img id="imgbtn" style="background-color: white;
+                height: 80%; border-radius: 10px;" src="https://logos-world.net/wp-content/uploads/2022/04/Orbitz-Logo.png" alt="">
+                <select style="color: black; ">
                     <option>More travel</option>
                     <option>Stays</option>
                     <option>Flight</option>
@@ -27,141 +33,301 @@
             <div id="rightnav">
                 <p>Espanol</p>
                 <p>List Your Property</p>
-                <p>support</p>
+                <p>Support</p>
                 <P>Trips</P>
-                <p>Sign in</p>
+                <p id="signin">Sign in</p>
 
             </div>
-         </div>
-     </div>
-     <!--search Box start-->
-     <div id="searchbox">
-        <div id="scontainer">
+        </div>
+    </div>
+    <!--search Box start-->
+    <div id="searchdiv">
+        <div id="fcontainer">
             <div>
-              <p>Stays</p>
-              <p>Flights</p>
-              <p>Cars</p>
-              <p>Packages</p>
-              <p>Things To Do</p>
-              <p>Cruises</p>
-            </div>     
+                <p class="hoverf">Stays</p>
+                <p class="hoverf">Flights</p>
+                <p class="hoverf">Cars</p>
+                <p class="hoverf">Packages</p>
+                <p class="hoverf">Things To Do</p>
+                <p class="hoverf">Cruises</p>
+            </div>
             <hr>
             <div class="inputbox">
-            <input style="width: 400px;margin-left: 50px; font-size: 15px" type="text" placeholder="Going to"/>
-            <input style="width: 150px;margin-left: 50px; font-size: 15px" type="date" placeholder="check in">
-            <input style="width: 150px;margin-left: 50px; font-size: 15px" type="date" placeholder="check in">
-            <input style="width: 150px;margin-left: 50px; font-size: 15px" type="text" placeholder="Travellers">
-            </div>
-            </div>
-            
+                <input style="width: 400px;margin-left: 50px; font-size: 15px" type="text" placeholder="Going to" />
+                <input style="width: 150px;margin-left: 50px; font-size: 15px" type="date" placeholder="check in">
+                <input style="width: 150px;margin-left: 50px; font-size: 15px" type="date" placeholder="check in">
+                <input style="width: 150px;margin-left: 50px; font-size: 15px" type="text" placeholder="Travellers">
 
+            </div>
+            <br>
+            <div class="checkbox">
+                <span><input style="margin-left: 50px;" type="checkbox" name="" id="">Add a flight</span>
+                <span><input style="margin-left: 100px;" type="checkbox" name="" id="">Add a Car</span>
+                
+            </div>
+            <button id="searchbtn">Search</button>
         </div>
-         <br>
-         <div>
-            <span><input type="checkbox" name="" id="">Add a flight</span>
-            <span><input type="checkbox" name="" id="">Add a Car</span>
-            <button>Search</button>
-         </div>
-     </div>
-     <!-- search box end -->
-       <div id="belowdiv">
-          <img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_TravelAsYouAre_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh" alt="">
-          <img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_Rewards_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh" alt="">
-          <img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_InsiderPrices_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh" alt="">
-       </div> 
-       <div id="featured">
+    </div>
+
+
+    </div>
+
+    <!-- search box end -->
+    <div id="belowdiv">
+        <div>
+            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_TravelAsYouAre_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh"
+            alt="">
+        </div>
+        <div>
+            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_Rewards_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh"
+            alt="">
+        </div>
+        <div>
+            <img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_InsiderPrices_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh"
+            alt="">
+        </div>
+        
+        
+    </div>
+    <div id="featured">
         <h1>Featured Offer</h1>
-          <div class="offer">
-             <div class="boimg1">
+        <div class="offer">
+            <div class="boimg1">
                 <h2>Last-Minute Deals</h2>
                 <p>Gateway Today</p>
-             </div>
-             <div class="boimg2">
+            </div>
+            <div class="boimg2">
                 <h2>All Inclusive Resorts</h2>
                 <p>Enjoy sun and fun</p>
-             </div>
-             <div class="boimg3">
+            </div>
+            <div class="boimg3">
                 <h2>Insider Prices</h2>
                 <p>Members get rewarded</p>
-             </div>
-             <div class="boimg4">
+            </div>
+            <div class="boimg4">
                 <h2>Jet and Reset</h2>
                 <p>Fly somewhere beachy and warm</p>
             </div>
-          </div>
-       </div>  
-       
-       <div class="mid_section">
-         <h1>Here to help keep you on the move</h1>
-       </div>
-       <div  class="mid_img">
-          <div>
+        </div>
+    </div>
+
+    <div class="mid_section">
+        <h1>Here to help keep you on the move</h1>
+    </div>
+    <div class="mid_img">
+        <div>
             <h2>Change or cancel a trip</h2>
             <p>Make updates to your itinerary or cancel a booking</p>
-          </div>
-          <div>
+        </div>
+        <div>
             <h2>Use a credit or coupon</h2>
             <p>Apply a coupon code or credit to new trip</p>
-          </div>
-          <div>
+        </div>
+        <div>
             <h2>Track your refund</h2>
             <p>check the status of refund currently in progress</p>
-          </div>
-       </div>
-
-
-       <div class="travelling">
-         <h1>Traveling Tips</h1>
-        </div> 
-        <div id="travel_box">
-            <div>
-                <h2>National Parks</h2>
-                <p>There's plenty to keep you busy</p>
-                <button>Leran More</button>
-            </div>
-            <div>
-                <h2>The Perfect road trip</h2>
-                <p>Find an adventure for every season</p>
-                <button>Read On</button>
-            </div>
         </div>
-       
-       <div class="ftimg">
-          <div>
+    </div>
+
+
+    <div class="travelling">
+        <h1>Traveling Tips</h1>
+    </div>
+    <div id="travel_box">
+        <div>
+            <h2>National Parks</h2>
+            <p>There's plenty to keep you busy</p>
+            <button>Leran More</button>
+        </div>
+        <div>
+            <h2>The Perfect road trip</h2>
+            <p>Find an adventure for every season</p>
+            <button>Read On</button>
+        </div>
+    </div>
+
+    <div class="ftimg">
+        <div>
             <h1></h1>
             <p></p>
-          </div>
-       </div>
-       <div id="footer_img">
-          <div>
-            <img src="https://a.travel-assets.com/mad-service/footer/marquee/ORB_App_Footer_v1.jpg" alt="">
-          </div>
-          <div id="footer_div">
-             <div>
-                 <h1>Rewards are waiting for you in the Orbitz app</h1>
-                 <ul>
-                    <li>
-                       Earn 4% back when you book your hotel in app, vs. 3% on site                        
-                    </li>
+        </div>
+    </div>
+
+    <div id="Rewards">
+        <div id="Rimg" class="Rcont">
+            <img id="R_img" src="https://a.travel-assets.com/mad-service/footer/marquee/ORB_App_Footer_v1.jpg" alt="">
+        </div>
+        <div id="Rdiv2" class="Rcont">
+            <div>
+                <h1>Rewards are waiting for you in the orbit app</h1>
+                <ul>
+                    <li>Earn 4% back when you book your hotel in app, vs 3% on site</li>
                     <li>Get flight status and gate number notifications</li>
-                    <li>Have questions about your stay? Message your hotel right in the app</li>   
-                  </ul>
-             </div>
-             <h2>Try Yourself a download link</h2>
-              <div>
-                 <div>
+                    <li>Have questions about your stay? Message your hotel right in the app</li>
+                </ul>
+            </div>
+            <h2>Text yourself a download link</h2>
+            <div class="flex">
+                <div>
                     <select>
                         <option>India +91</option>
                         <option>United Kingdom +44</option>
-                        <option>Hong Kong, SAR	+852</option>
-                        <option>Indonesia	+62</option>
-                        <option>Japan	+81</option>
-                        <option>Maldives	+960</option>
-                        <option>Mexico	+52</option>
-                     </select>
-                 </div>
-              </div>
-          </div> 
-       </div>
+                        <option>Hong Kong, SAR +852</option>
+                        <option>Indonesia +62</option>
+                        <option>Japan +81</option>
+                        <option>Maldives +960</option>
+                        <option>Mexico +52</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="number" placeholder="Phone number">
+                </div>
+                <div>
+                    <button id="btn">Get the app</button>
+                </div>
+            </div>
+            <p>By providing your number, you agree to receive a one-time automated text message with a link to get <br>
+                the app. Standard text message rates may apply.</p>
+        </div>
+        <div class="Rcont">
+            <img id="barcode-img"
+                src="https://a.travel-assets.com/mad-service/qr-code/portfolio_app_landing/qr_app_landing_footer_orbitz.png"
+                alt="">
+            <p class="para">Scan the QR code</p>
+        </div>
+    </div>
+
+    <div id="more_destination">
+        <div>
+            <h1>More destination</h1>
+        </div>
+        <div class="flex_div">
+            <div>
+                <select>
+                    <option style="color: teal;">Destination deal</option>
+                    <option style="color: teal;">Flight under $200</option>
+                    <option style="color: teal;">Travel Deals</option>
+                    <option style="color: teal;">Hotels Under $100</option>
+                    <option style="color: teal;">Orbitz Hotel coupon</option>
+                </select>
+            </div>
+            <div>
+                <select>
+                    <option style="color: teal;">Top hotel beach destinations</option>
+                    <option style="color: teal;">Atlantic City hotels</option>
+                    <option style="color: teal;">San Diego</option>
+                    <!-- <option></option> -->
+                </select>
+            </div>
+            <div>
+                <select>
+                    <option style="color: teal;">Top hotel city destinations</option>
+                    <option style="color: teal;">Austin hotels</option>
+                    <option style="color: teal;">Dallas hotels</option>
+                    <!-- <option></option> -->
+                </select>
+            </div>
+        </div>
+        <div class="flex_div">
+            <div>
+                <select>
+                    <option style="color: teal;">Top vacation destination</option>
+                    <option style="color: teal;">Caribbean Vacations</option>
+                    <option style="color: teal;">Mexico Vacations</option>
+                    <option style="color: teal;">New York Vacations</option>
+                    <option style="color: teal;">Las Vegas Vacations</option>
+                    <option style="color: teal;">Disneyland Packages</option>
+                </select>
+            </div>
+            <div>
+                <select>
+                    <option style="color: teal;">Top flight destination</option>
+                    <option style="color: teal;">Flights To Las Vegas</option>
+                    <option style="color: teal;">Flights To Los Angeles</option>
+                    <option style="color: teal;">Flights To San Diego</option>
+                    <option style="color: teal;">Flights To Mumbai</option>
+                    <option style="color: teal;">Flights To Goa</option>
+                </select>
+            </div>
+            <div>
+                <select>
+                    <option style="color: teal;">Top car rental destination in America</option>
+                    <option style="color: teal;">Car rental in Atlanta</option>
+                    <option style="color: teal;">Car rental in Chicago</option>
+                    <option style="color: teal;">Car rental in Dallas</option>
+                    <option style="color: teal;">Car rental in Detroit</option>
+                    <option style="color: teal;">Car rental in Las Vegas</option>
+                    <option style="color: teal;">Car rental in New Orleans</option>
+                    <option style="color: teal;">Car rental in Philadelphia</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div>
+            <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg"
+                alt="">
+        </div>
+        <div class="footer_div">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Job</a></li>
+                <li><a href="">List your property</a></li>
+                <li><a href="">Partnerships</a></li>
+                <li><a href="">Newsroom</a></li>
+                <li><a href="">Investor Relations</a></li>
+                <li><a href="">Site Map</a></li>
+                <li><a href="">Orbitz Rewards</a></li>
+                <li><a href="">Advertising</a></li>
+            </ul>
+        </div>
+        <div class="footer_div">
+            <h3>Explore</h3>
+            <ul>
+                <li><a href="">Hotels in United States</a></li>
+                <li><a href="">Vacation Rentals in United States</a></li>
+                <li><a href="">Car Rentals in United States</a></li>
+                <li><a href="">Domestic Flights</a></li>
+                <li><a href="">Vacation Packages in United States</a></li>
+                <li><a href="">Vacation Packages in United States</a></li>
+                <li><a href="">Vacation Packages in United States</a></li>
+                <li><a href="">Orbitz Reviews</a></li>
+                <li><a href="">Orbitz Coupons</a></li>
+                <li><a href="">LGBTQ Travel</a></li>
+                <li><a href="">Unique Accommodations</a></li>
+                <li><a href="">Travel Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer_div">
+            <h3>Policies</h3>
+            <ul>
+                <li><a href="">Privacy Policies</a></li>
+                <li><a href="">Terms of Use</a></li>
+                <li><a href="">Orbitz Rewards Terms</a></li>
+                <li><a href="">Do not sell my personal information</a></li>
+            </ul>
+        </div>
+        <div class="footer_div">
+            <h3>Help</h3>
+            <ul>
+                <li><a href="">Support</a></li>
+                <li><a href="">Cancel your hotel or vacation rental booking</a></li>
+                <li><a href="">Cancel your flight</a></li>
+                <li><a href="">Refund timelines, policies & processes</a></li>
+                <li><a href="">Use an Orbitz Coupon</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="copyright">
+        <hr>
+        <p>© 2022 Orbitz, LLC, an Expedia Group Company. All rights reserved.</p>
+        <p>Orbitz, Orbitz.com, and the Orbitz logo are trademarks or registered trademarks of Orbitz, LLC. CST#
+            2083930-50.</p>
+    </div>
+    <script src="index.js"></script>
 </body>
+ 
 </html>

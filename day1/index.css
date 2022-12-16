@@ -1,10 +1,16 @@
 body{
     margin: 0px;
 }
+.container{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+}
+
 #navbar{
     display: flex;
-    border: 1px solid red;
-    justify-content: space-around;
+   
+    justify-content: space-between;
+    background-color: #01253d;
     
 }
 #leftnav{
@@ -15,67 +21,131 @@ body{
 #rightnav{
     text-align: right;
     display: flex;
-    border: 1px solid red;
-    width: 550px;
+    color: white;
+    width: 500px;
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    margin-right: 20px;
+    padding-right: 100px;
+    cursor: pointer;
+}
+#rightnav>p:hover{
+    color: teal;
+}
+#leftnav{
+    display: flex;
 }
 #leftnav>img{
-    width: 20%;
+    width: 150px;
+    margin-left: 50px;
     align-items: center;
     cursor: pointer;
 }
 #leftnav>select{
     text-align: center;
-    margin-left: 30px;
+    margin-left: 50px;
+    border: 0px;
 }
-#scontainer>div{
-    display: flex;
-    align-items: flex-end;
-    border: 1px solid red;
-    width: 80%;
+
+#fcontainer {
+    width: 75%;
+    height: 250px;
+    padding: 5px;
     margin: auto;
-    justify-content: space-around;
     background-color: white;
+    top: 60px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-#searchbox{
-    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=225&q=mediumHigh");
-}
-#searchbox>.inputbox{
-    margin-bottom: 20px;
-    
-}
-#belowdiv{
+#fcontainer > div:nth-child(1) {
     display: flex;
-    width: 80%;
+    height: 50px;
+    width: 500px;
+    margin-left: 350px;
+    justify-content: space-between;
+ }
+ .hoverf:hover{
+        cursor: pointer;
+        color: teal;
+}
+ #fcontainer > div > {
+    margin-left: 50px;
+ }
+#fcontainer > div > input {
+    height: 40px;
+ }
+ #fcontainer>button{
+      height: 50px;
+      width: 150px;
+      background-color: rgb(200,50,89);
+      color: white;
+      margin-left: 500px;
+      font-size: 17px;
+      border: 0px;
+}
+ #fcontainer > div>span{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 14px;
+    
+    
+ }
+ #fcontainer > div>span{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 14px;
+     }
+    #searchbtn{
+        
+        margin-top: 20px;
+    }
+    #searchdiv{
+        height: 450px;
+        background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=225&q=mediumHigh");
+        background-size: cover;
+        background-position: bottom;
+        
+    }
+
+#belowdiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 75%;
     margin: auto;
+    margin-top: 50px;
     justify-content: center;
-    margin-top: 100px;
-    border: 1px solid red;
+    
+    gap: 10px;
     
 }
-#belowdiv>img{
-    width: 32%;
+#belowdiv>div{
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+
+#belowdiv>div>img{
+    width: 100%;
+    
 }
 #featured>h1{
-    margin-left: 9%;
+    margin-left: 12.5%;
     
 }
 .offer{
     display: flex;
     justify-content: center;
-    width: 82%;
+    width: 75%;
     height: 225px;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
+    cursor: pointer;
     margin: auto;
 }
 .boimg1{
     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_LastMinute_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh");
-    height: 220px;
-    width: 320px;
+    height: 200px;
+    width: 300px;
     color: white;
     align-items: flex-start ;
     background-size: cover;
@@ -91,8 +161,8 @@ body{
 }
 .boimg2{
     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_AllInclusive_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh");
-    height: 220px;
-    width: 320px;
+    height: 200px;
+    width: 300px;
     color: white;
     align-items: flex-start ;
     background-size: cover;
@@ -108,8 +178,8 @@ body{
 }
 .boimg3{
     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_MOD_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh");
-    height: 220px;
-    width: 320px;
+    height: 200px;
+    width: 300px;
     color: white;
     align-items: flex-start ;
     background-size: cover;
@@ -125,8 +195,8 @@ body{
 }
 .boimg4{
     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_JetAndReset_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh");
-    height: 220px;
-    width: 320px;
+    height: 200px;
+    width: 300px;
     color: white;
     align-items: flex-start ;
     background-size: cover;
@@ -142,12 +212,14 @@ body{
 
 }
 .mid_section h1{
-   margin-left: 150px;
+   margin-left: 200px;
 }
-
+.mid_img>div>h2,.mid_img>div>p{
+    margin-left: 10px;
+}
 .mid_img{
     display: flex;
-    width: 82%;
+    width: 77%;
     margin: auto;
     justify-content: center;
     justify-content: space-around;
@@ -166,21 +238,36 @@ body{
     width: 31%;
 }
 .travelling{
-    margin-left: 10%;
+    margin-left: 12%;
 }
 #travel_box{
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 75%;
     margin: auto;
     justify-content: space-between;
-    border: 1px solid red;
+    
 }
 #travel_box>div:nth-child(1){
     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg");
     width: 49%;
     height: 250px;
     background-size: cover ;
+    color: white;
+    
+    
+}
+#travel_box>div>h2{
+    margin-top: 50px;
+}
+#travel_box>div>button{
+    width: 100px;
+    height: 30px;
+    color: teal;
+    cursor: pointer;
+}
+#travel_box>div>p,#travel_box>div>h2,#travel_box>div>button{
+    margin-left: 20px;
     
 }
 #travel_box>div:nth-child(2){
@@ -188,28 +275,132 @@ body{
     width: 49%;
     height: 250px;
     background-size: cover ;
+    color: white;
     
+}
+#travel_box>button{
+    height: 150px;
+    cursor: pointer;
 }
 .ftimg{
    text-align: center;
    background-image: url("https://tpc.googlesyndication.com/simgad/10056509806482740393?");
-   width: 80%;
+   width: 77%;
    height: 120px;
    margin: auto;
    background-size: cover;
+   
 }
-#footer_img{
-    
+#Rewards{
     display: flex;
-    margin-top: 30px;
-}
-#footer_img>div>img{
-    width: 40%;
-    height: 120%;
-    margin-left: 160px;
-
-}
-#footer_div>div{
-   border: 1px solid red;
-   justify-content: left;
-}
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    border: 1px solid rgb(128, 128, 128);
+  }
+  #Rdiv2{
+   margin: 0px 10px;
+  }
+  .rightnavtext:hover{
+  color: rgb(0, 164, 187);
+  cursor: pointer;
+  }
+  .flex{ 
+   display: flex;
+  }
+  .flex > div {
+   margin: 0px 10px;
+  }
+  .flex select {
+   padding: 10px;
+   font-size: 15px;
+  }
+  .flex input {
+   padding: 11px;
+  }
+  #barcode-img{
+   margin-top: 30px;
+   width: 160px;
+   margin-left: 30px;
+  }
+  #R_img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+  }
+  #Rewards>.Rcont>.para{
+    margin-left: 50px;
+  }
+  #btn{
+    width: 200px;
+    height: 42px;
+    background-color: rgb(200,50,89);
+    border: 0px;
+    color: white;
+  }
+  .flex_div{
+    display: flex;
+   }
+   .flex_div select {
+       outline: none;
+       border: none;
+   
+   }
+   .flex_div option{
+       font-weight: bold;
+   }
+   .flex_div select {
+       font-weight: bold;
+       padding: 10px 3px;
+       width: 370px;
+       font-size: 18px;
+   }
+   .flex_div div {
+    margin: 10px;
+   }
+   #more_destination{
+    width: fit-content;
+    margin: auto;
+   }
+   #more_destination h1 {
+    margin-left: 10px;
+   }
+   #footer{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 40px;
+   }
+   .footer_div{
+    padding: 0px 20px;
+    margin: 0px 30px;
+    border: 0;
+   }
+   #footer > div >img{
+    margin-top: 15px;
+   }
+   .footer_div li {
+    margin: 0px -38px;
+    margin-bottom: 10px;
+    font-size: 5px;
+    list-style-type: none;
+   }
+   .footer_div h3{
+       font-size: 13px;
+       margin-bottom: 0;
+   }
+   .footer_div a {
+   text-decoration: none;
+   color: #25b8b5;
+   font-size: 12px;
+   font-weight: 100;
+   
+   }
+   #copyright{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+   }
