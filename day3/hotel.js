@@ -601,10 +601,10 @@ function createList(ata){
     }
     div1.style.cursor = "pointer";
     hDiv.append(hName,mileDiv,refundDiv,reserveDiv,ratingDiv);
-    div1.append(imgS, hDiv,lastDiv);
+    div1.append(imgS,hDiv,lastDiv);
     document.querySelector("#list").append(div1);
     div1.addEventListener("click",function(){
-      window.location.href = "http://127.0.0.1:5500/day%204/room.html";
+      window.location.href = "http://127.0.0.1:5500/day%205/payment.html";
     })
   });
   }
