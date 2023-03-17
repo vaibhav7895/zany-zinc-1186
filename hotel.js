@@ -604,7 +604,7 @@ function createList(ata){
     div1.append(imgS,hDiv,lastDiv);
     document.querySelector("#list").append(div1);
     div1.addEventListener("click",function(){
-      window.location.href = "http://127.0.0.1:5500/day%205/payment.html";
+      window.location.href = "/payment.html";
     })
   });
   }
@@ -627,8 +627,8 @@ function filterFunc(hotelName,hdata){
 }
     
     document.querySelector("#imgbtn").addEventListener("click",function(){
-        location.href = "http://127.0.0.1:5500/day4%20part/signed.html"
+        location.href = "/signed.html"
     })
     document.querySelector("#signin").addEventListener("click",function(){
-        location.href = "http://127.0.0.1:5500/day%202/signin.html"
+        location.href = "/signin.html"
    });

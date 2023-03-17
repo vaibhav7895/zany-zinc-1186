@@ -2,7 +2,7 @@ var arr = [{
     name: "xyz", card: "1234", expM: "10", expY:"2025", scode: "321", zcode: "123456"
     }]
     document.querySelector("#imgbtn").addEventListener("click", function(){
-        window.location.href = "http://127.0.0.1:5500/day4%20part/signed.html";
+        window.location.href = "/signed.html";
 });
 
     function submit(){

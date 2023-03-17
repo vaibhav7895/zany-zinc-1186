@@ -18,7 +18,7 @@ function submit (event) {
         if(email == elem.email && password == elem.password) {
             
             localStorage.setItem("userData",JSON.stringify(userData));
-            window.location.href = "http://127.0.0.1:5500/day4%20part/signed.html"
+            window.location.href = "/day4%20part/signed.html"
             return;
         }
         else if(email != elem.email && password != elem.password) {
@@ -30,5 +30,5 @@ document.getElementById("submit").addEventListener("click", submit);
 document.getElementById("submit").style.cursor = "pointer";
 document.querySelector(".logo").style.cursor = "pointer";
 document.querySelector(".logo").addEventListener("click", function(){
-    window.location.href = "http://127.0.0.1:5500/day1/index.html";
+    window.location.href = "/index.html";
 });
